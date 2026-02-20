@@ -1,0 +1,617 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+\geometry{margin=1in}
+
+% Define colors
+\definecolor{fieldblue}{RGB}{0,90,156}
+\definecolor{warnorange}{RGB}{204,102,0}
+\definecolor{geobrown}{RGB}{139,90,43}
+
+% Colored boxes for field stops and safety
+\newtcolorbox{fieldstop}[1]{colback=fieldblue!10, colframe=fieldblue, title={#1}, fonttitle=\bfseries}
+\newtcolorbox{safetybox}{colback=warnorange!10, colframe=warnorange, title={Safety Note}, fonttitle=\bfseries}
+\newtcolorbox{geobox}[1]{colback=geobrown!10, colframe=geobrown, title={#1}, fonttitle=\bfseries}
+
+% Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Ge136 Field Guide}
+\lhead{Saline Valley}
+\rfoot{Page \thepage}
+
+\title{\textbf{Field Guide to Saline Valley}\\[0.5cm]
+\large Geology, Natural History, and Cultural Landscape\\
+of the Northern Mojave Desert\\[1cm]
+\normalsize Ge136 Class Field Trip}
+
+\author{Course Materials}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{safetybox}
+\textbf{REMOTE AREA WARNING}: Saline Valley is extremely isolated. The nearest services are 2--3 hours away on rough roads. Ensure your vehicle has:
+\begin{itemize}[noitemsep]
+    \item Full tank of gas (and spare fuel if possible)
+    \item 2+ gallons of water per person per day
+    \item Spare tire and basic tools
+    \item First aid kit
+    \item GPS/maps (no cell service)
+\end{itemize}
+Summer temperatures exceed 120\textdegree F. Rattlesnakes are present. Always inform someone of your itinerary.
+\end{safetybox}
+
+\vspace{1cm}
+\tableofcontents
+\newpage
+
+%=======================================================================
+\section{Introduction to Saline Valley}
+%=======================================================================
+
+Saline Valley is a large, deep, and arid graben approximately 27 miles (43 km) in length, located in the northern Mojave Desert of Inyo County, California. It became part of Death Valley National Park in 1994 and represents one of the most geologically significant and least-visited areas of the park.
+
+\subsection{Geographic Setting}
+
+\begin{itemize}
+    \item \textbf{Location}: Northwest of Death Valley proper, south of Eureka Valley
+    \item \textbf{Elevation range}: 1,058 ft (322 m) at salt flat to 11,123 ft (3,390 m) at Inyo Mountains crest
+    \item \textbf{Basin type}: Endorheic (closed) basin with no outlet to the sea
+    \item \textbf{Bounding ranges}: Inyo Mountains (west), Saline Range (east), Last Chance Range (north)
+\end{itemize}
+
+\subsection{Why Saline Valley Matters}
+
+Saline Valley offers exceptional opportunities to observe:
+
+\begin{enumerate}
+    \item \textbf{Basin and Range tectonics}: Classic graben structure with active normal faulting
+    \item \textbf{Paleozoic stratigraphy}: The thickest sequence of Paleozoic marine sediments in the western United States (19,000+ feet)
+    \item \textbf{Cambrian type locality}: C.D. Walcott's ``Waucoban'' trilobite locality
+    \item \textbf{Evaporite mineralogy}: Active playa salt precipitation with zoned mineral assemblages
+    \item \textbf{Desert ecology}: Transition zone between Mojave and Great Basin biomes
+    \item \textbf{Hydrothermal systems}: Fault-controlled hot springs
+    \item \textbf{Cultural history}: Indigenous trade networks and historic salt mining
+\end{enumerate}
+
+%=======================================================================
+\section{Regional Tectonic Framework}
+%=======================================================================
+
+\subsection{Basin and Range Province}
+
+Starting approximately 16 Ma in Miocene time and continuing to the present, the North American Plate in this region has been undergoing extension. The ``slab gap hypothesis'' suggests the spreading zone of the subducted Farallon Plate is pushing the continent apart, creating the Basin and Range Province---a vast region of relatively thin crust.
+
+\begin{geobox}{Extension Mechanics}
+Extensional forces cause:
+\begin{itemize}[noitemsep]
+    \item Rock at depth to stretch ductilely (``like silly putty'')
+    \item Shallow rock to break along \textbf{normal faults}
+    \item Formation of \textbf{grabens} (downfallen basins)
+    \item Uplift of \textbf{horsts} (fault-block mountain ranges)
+\end{itemize}
+In the Basin and Range, dozens of these horst/graben structures trend roughly north--south.
+\end{geobox}
+
+\subsection{Saline Valley as a Pull-Apart Basin}
+
+Saline Valley is interpreted as a \textbf{double pull-apart basin}:
+
+\begin{enumerate}
+    \item \textbf{Primary component}: NW--SE extension along the Inyo Mountains front
+    \item \textbf{Secondary component}: Oblique pull-apart trending toward Steele Pass
+\end{enumerate}
+
+The valley formed through extension on closely spaced, rotated planar normal faults. Along with Panamint Valley, Saline Valley developed as part of a late Pliocene to Recent extensional system consisting of paired pull-apart basins connected by the Hunter Mountain fault.
+
+\subsection{Depth and Scale}
+
+\begin{quote}
+``If filled with water, Saline Valley would be over 4,000 feet (1,200 m) deep, form a lake with a surface area of roughly 500 square miles (1,300 km\textsuperscript{2}), and hold approximately 500,000,000 acre-feet (620 km\textsuperscript{3}) of water.''
+\end{quote}
+
+This makes Saline Valley the deepest structural basin in the United States.
+
+%=======================================================================
+\section{Stratigraphy of the Inyo Mountains}
+%=======================================================================
+
+The Inyo Mountains, bounding Saline Valley to the west, expose one of the most complete and scientifically significant stratigraphic sections in North America.
+
+\subsection{Precambrian Basement}
+
+The structural foundation consists of:
+\begin{itemize}
+    \item Metamorphic basement of gneiss and schist
+    \item Roof pendants intruded by Mesozoic granites
+    \item Wyman Formation: $>$9,000 ft of phyllitic siltstone and claystone
+\end{itemize}
+
+\subsection{Paleozoic Marine Sequence}
+
+\begin{geobox}{The Thickest Paleozoic Section}
+In the Dry Mountain quadrangle alone, 19,000 feet of Paleozoic marine sediment accumulated. This represents the \textbf{thickest sequence of Paleozoic marine sediment in the western United States}.
+\end{geobox}
+
+\subsubsection{Depositional Setting}
+
+During the Paleozoic, this region was a subsiding continental margin---a \textbf{miogeocline}---that continued to subside westward from mid-Utah (the ``Wasatch Line'') after the rifting of proto-North America.
+
+\subsubsection{Key Formations}
+
+\begin{longtable}{p{4cm}p{2.5cm}p{6.5cm}}
+\toprule
+\textbf{Formation} & \textbf{Thickness} & \textbf{Description} \\
+\midrule
+\endhead
+Bonanza King Dolomite & 2,800 ft & Massive gray dolomite, Cambrian age \\
+Tamarack Canyon Dolomite & 900 ft & Dolomite sequence \\
+Johnnie Formation & up to 4,500 ft & Includes carbonate members, Late Proterozoic \\
+Stirling Quartzite & up to 5,000 ft & Resistant quartzite, cliff-former \\
+Campito Formation & variable & Andrews Mountain Member with trilobites \\
+Poleta Formation & variable & Cambrian shales and carbonates \\
+Harkless Formation & variable & Shelf-to-slope transition deposits \\
+Saline Valley Formation & variable & Shale member with earliest Cambrian trilobites \\
+\bottomrule
+\caption{Key stratigraphic units of the Inyo Mountains}
+\end{longtable}
+
+\subsection{The Waucoban Type Locality}
+
+\begin{fieldstop}{Stop: Saline Valley Formation Trilobite Locality}
+The shale member of the Saline Valley Formation contains trilobite fossils marking the earliest recorded Precambrian--Cambrian boundary ($\sim$550 Ma).
+
+\textbf{Historical significance}: C.D. Walcott, third director of the USGS after John Wesley Powell, designated this as the ``type locality'' for the earliest Cambrian, which he named the \textbf{Waucoban Age}.
+
+\textbf{Key fossils}: \textit{Mesonacis fremonti} and other early trilobites
+
+\textit{Note: This locality is within Death Valley National Park. Fossil collection is prohibited.}
+\end{fieldstop}
+
+\subsection{Tectonic History}
+
+\begin{enumerate}
+    \item \textbf{Early--Middle Paleozoic}: Passive margin with continuous subsidence and marine sedimentation
+    \item \textbf{Late Paleozoic--Mesozoic}: Transition to active margin tectonics
+    \item \textbf{Mesozoic}: Pluton emplacement (Sierra Nevada batholith intrusions)
+    \item \textbf{Cenozoic}: Basin and Range extension, normal faulting, graben formation
+\end{enumerate}
+
+%=======================================================================
+\section{The Salt Flat: Evaporite Mineralogy}
+%=======================================================================
+
+\subsection{Playa Hydrology}
+
+Saline Valley is a \textbf{closed (endorheic) basin}. Water enters from:
+\begin{itemize}
+    \item Springs along the mountain fronts
+    \item Mountain streams that disappear on reaching alluvial fans
+    \item Groundwater flow feeding the playa
+\end{itemize}
+
+No water leaves except through evaporation, leading to progressive salt concentration.
+
+\subsection{Brine Evolution}
+
+\begin{geobox}{Two-Stage Brine Development}
+\textbf{Stage 1}: Calcite precipitation within alluvial fans causes drastic decrease in Ca\textsuperscript{2+} and HCO\textsubscript{3}\textsuperscript{--}
+
+\textbf{Stage 2}: Gypsum precipitation at playa edge controls initial SO\textsubscript{4}\textsuperscript{2--} concentration
+
+\textbf{Result}: Further evaporation produces chloride- and alkali-dominated brines
+\end{geobox}
+
+\subsection{Mineral Zonation}
+
+The distribution of evaporite minerals is \textbf{concentric}. From periphery to center:
+
+\begin{enumerate}
+    \item \textbf{Outer zone}: Gypsum (CaSO\textsubscript{4}$\cdot$2H\textsubscript{2}O)
+    \item \textbf{Intermediate zone}: Gypsum + Glauberite (Na\textsubscript{2}Ca(SO\textsubscript{4})\textsubscript{2})
+    \item \textbf{Inner zone}: Glauberite
+    \item \textbf{Central zone}: Glauberite + Halite (NaCl)
+\end{enumerate}
+
+\subsection{Evaporite Mineral Inventory}
+
+\begin{longtable}{p{3cm}p{4cm}p{6cm}}
+\toprule
+\textbf{Mineral} & \textbf{Formula} & \textbf{Occurrence} \\
+\midrule
+\endhead
+Halite & NaCl & Central playa, efflorescences \\
+Thenardite & Na\textsubscript{2}SO\textsubscript{4} & Efflorescences \\
+Mirabilite & Na\textsubscript{2}SO\textsubscript{4}$\cdot$10H\textsubscript{2}O & Hydrated form, cool conditions \\
+Glauberite & Na\textsubscript{2}Ca(SO\textsubscript{4})\textsubscript{2} & Intermediate zone \\
+Gypsum & CaSO\textsubscript{4}$\cdot$2H\textsubscript{2}O & Peripheral zone \\
+Calcite & CaCO\textsubscript{3} & Alluvial fans, carbonate muds \\
+Dolomite & CaMg(CO\textsubscript{3})\textsubscript{2} & Carbonate muds \\
+Ulexite & NaCaB\textsubscript{5}O\textsubscript{6}(OH)\textsubscript{6}$\cdot$5H\textsubscript{2}O & Borate mineral, localized \\
+Analcime & NaAlSi\textsubscript{2}O\textsubscript{6}$\cdot$H\textsubscript{2}O & Authigenic zeolite \\
+Sepiolite & Mg\textsubscript{4}Si\textsubscript{6}O\textsubscript{15}(OH)\textsubscript{2}$\cdot$6H\textsubscript{2}O & Clay mineral in muds \\
+\bottomrule
+\caption{Evaporite minerals of Saline Valley}
+\end{longtable}
+
+\begin{fieldstop}{Stop: Salt Flat Margin}
+\textbf{Observe}:
+\begin{itemize}[noitemsep]
+    \item Transition from alluvial fan gravels to playa muds
+    \item Efflorescent salt crusts (puffy, white)
+    \item Polygonal desiccation patterns
+    \item Color zonation reflecting mineral changes
+\end{itemize}
+
+\textbf{Questions to consider}:
+\begin{enumerate}[noitemsep]
+    \item Where is the brine table relative to the surface?
+    \item What controls the boundary between gypsum and halite zones?
+    \item How does seasonal flooding affect the salt crust?
+\end{enumerate}
+\end{fieldstop}
+
+%=======================================================================
+\section{Hot Springs: Fault-Controlled Hydrothermal Systems}
+%=======================================================================
+
+\subsection{Overview}
+
+The Saline Valley Hot Springs consist of three thermal spring areas in the northeast corner of the valley:
+\begin{enumerate}
+    \item Upper Warm Spring
+    \item Lower Warm Spring
+    \item Palm Spring
+\end{enumerate}
+
+Water temperatures at the source average around 107\textdegree F (42\textdegree C), with some pools reaching 112\textdegree F.
+
+\subsection{Geological Origin}
+
+\begin{geobox}{Geothermal Gradient}
+In non-volcanic areas, rock temperature increases with depth at approximately 25--30\textdegree C/km. Water percolating deeply enough along fault zones contacts hot rocks and can circulate back to the surface as hot springs.
+\end{geobox}
+
+The Saline Valley hot springs are \textbf{fault-controlled}---groundwater circulates along normal fault planes to depth, heats, and returns to the surface along the same structural pathways.
+
+\subsection{Water Chemistry}
+
+The spring water contains elevated concentrations of:
+\begin{itemize}
+    \item Boron
+    \item Lithium
+    \item Other dissolved minerals
+\end{itemize}
+
+This gives some pools a characteristic milky blue color.
+
+\subsection{Seismic Sensitivity}
+
+In late 2005, seismic activity disturbed water flow to the lower springs. Only the middle springs remained fully functional for several years. As of 2007, flow to the lower springs had recovered to approximately 50\% of pre-earthquake levels.
+
+\begin{fieldstop}{Stop: Hot Springs Area}
+\textbf{Observe}:
+\begin{itemize}[noitemsep]
+    \item Travertine and mineral deposits around spring vents
+    \item Vegetation zonation around water sources
+    \item Evidence of past flow changes
+\end{itemize}
+
+\textbf{Questions to consider}:
+\begin{enumerate}[noitemsep]
+    \item What fault(s) control spring locations?
+    \item How deep must water circulate to reach observed temperatures?
+    \item What is the relationship between springs and basin structure?
+\end{enumerate}
+\end{fieldstop}
+
+%=======================================================================
+\section{Sand Dunes: Aeolian Geomorphology}
+%=======================================================================
+
+\subsection{Saline Valley Dunes}
+
+North of the salt flat lies a field of low, sweeping sand dunes. These are the \textbf{least visited dunes in Death Valley National Park}, offering exceptional solitude.
+
+\textbf{Setting}: The dunes rise gently from the salt flat margin with the Inyo Mountains as backdrop.
+
+\subsection{Nearby: Eureka Dunes}
+
+Though technically in Eureka Valley (just north of Saline Valley), the Eureka Dunes represent the tallest dunes in California and possibly North America, rising \textbf{680+ feet} above the valley floor.
+
+\subsubsection{Dune Classification}
+
+The Eureka Dunes are a \textbf{complex-linear dune}:
+\begin{itemize}
+    \item Main ridge is a \textbf{static linear dune}
+    \item \textbf{Star dune} formations are superimposed on the linear ridge
+    \item Linear dunes have alternating slip faces, indicating winds from both ends of the valley
+    \item Star dunes have radiating arms that shift with wind direction
+\end{itemize}
+
+\subsubsection{Singing Sands}
+
+Eureka Dunes are classified as \textbf{booming sand dunes}---one of only about 40 worldwide. When completely dry, avalanching sand produces a sound like a bass organ note or distant airplane drone.
+
+\subsection{Dune Formation Requirements}
+
+\begin{geobox}{Three Requirements for Dune Development}
+\begin{enumerate}[noitemsep]
+    \item \textbf{Sand source}: Weathered rock, alluvial sediments
+    \item \textbf{Prevailing winds}: Energy to transport sand
+    \item \textbf{Collection site}: Topographic trap or wind shadow
+\end{enumerate}
+The valley shape at Eureka and Saline alters wind patterns to concentrate sand at specific locations.
+\end{geobox}
+
+%=======================================================================
+\section{Desert Ecology}
+%=======================================================================
+
+\subsection{Life Zones}
+
+Saline Valley spans a remarkable elevation gradient (1,058--11,123 ft), encompassing multiple life zones:
+
+\begin{longtable}{p{3.5cm}p{2.5cm}p{7cm}}
+\toprule
+\textbf{Zone} & \textbf{Elevation} & \textbf{Dominant Vegetation} \\
+\midrule
+\endhead
+Lower Sonoran & $<$3,000 ft & Creosote bush, white bursage, saltbush \\
+Upper Sonoran & 3,000--6,000 ft & Joshua tree, blackbrush, Mormon tea \\
+Transition & 6,000--8,000 ft & Pinyon pine, juniper woodland \\
+Canadian & 8,000--10,000 ft & Limber pine, bristlecone pine \\
+Alpine & $>$10,000 ft & Alpine cushion plants, fell-field \\
+\bottomrule
+\caption{Vegetation zones of the Saline Valley region}
+\end{longtable}
+
+\subsection{Valley Floor Vegetation}
+
+\subsubsection{Creosote Bush (\textit{Larrea tridentata})}
+
+Creosote bush dominates most of the Mojave Desert, covering over two-thirds of the region. Key characteristics:
+\begin{itemize}
+    \item Olive-colored, resinous foliage with strong creosote odor
+    \item Grows in clones of extreme longevity (up to 11,000 years)
+    \item Among the longest-lived plants on Earth
+    \item Indicator of Lower Sonoran life zone
+\end{itemize}
+
+\subsubsection{Associated Species}
+
+\begin{itemize}
+    \item \textbf{White bursage} (\textit{Ambrosia dumosa}): Co-dominant with creosote
+    \item \textbf{Four-wing saltbush} (\textit{Atriplex canescens}): Valley bottoms and bajadas
+    \item \textbf{Shadscale} (\textit{Atriplex confertifolia}): Shallow, alkaline soils
+    \item \textbf{Desert holly} (\textit{Atriplex hymenelytra}): Salt-tolerant shrub
+\end{itemize}
+
+\subsection{Upper Elevation Flora}
+
+\subsubsection{Joshua Tree (\textit{Yucca brevifolia})}
+
+The Joshua tree marks the transition between Mojave and Great Basin deserts:
+\begin{itemize}
+    \item Found on cooler, moister sites at higher elevations
+    \item Grows to 30 feet in extensive, open stands
+    \item Member of the lily family (Asparagaceae)
+    \item Associated with blackbrush, Mormon tea, silver cholla
+\end{itemize}
+
+\subsubsection{Pinyon-Juniper Woodland}
+
+Higher in the Inyo Mountains:
+\begin{itemize}
+    \item \textbf{Singleleaf pinyon} (\textit{Pinus monophylla}): Nuts were a dietary staple for Indigenous peoples
+    \item \textbf{Utah juniper} (\textit{Juniperus osteosperma}): Berries used for food and medicine
+\end{itemize}
+
+\subsection{Wildlife}
+
+Death Valley National Park (including Saline Valley) supports:
+\begin{itemize}
+    \item 51 native mammal species
+    \item 307 bird species
+    \item 36 reptile species
+    \item 3 amphibian species
+    \item 5 native fish species (including endemic pupfish)
+\end{itemize}
+
+\subsubsection{Commonly Observed Species}
+
+\begin{longtable}{p{4cm}p{9cm}}
+\toprule
+\textbf{Species} & \textbf{Notes} \\
+\midrule
+\endhead
+Desert bighorn sheep & Largest native mammal; may be seen on mountain slopes \\
+Coyote & Common; often heard at dawn/dusk \\
+Common raven & Abundant throughout \\
+Greater roadrunner & Ground-dwelling bird; hunts lizards and snakes \\
+Sidewinder rattlesnake & Venomous; nocturnal in summer \\
+Desert tortoise & Threatened species; rare sightings \\
+Kangaroo rat & Nocturnal rodent; survives without drinking water \\
+Kit fox & Nocturnal; large ears for heat dissipation \\
+\bottomrule
+\caption{Common wildlife of Saline Valley}
+\end{longtable}
+
+\subsubsection{Desert Bighorn Sheep}
+
+\begin{itemize}
+    \item Found primarily in surrounding mountains
+    \item Adapted to survive several days without water
+    \item Can recover from losing 1/3 of body weight to dehydration
+    \item Best viewing: Dawn and dusk near water sources
+\end{itemize}
+
+%=======================================================================
+\section{Cultural History}
+%=======================================================================
+
+\subsection{Indigenous Connections}
+
+Saline Valley sits at a cultural crossroads. The Timbisha Shoshone (Panamint Shoshone) maintained direct connections to the valley, using its salt deposits as valuable trade commodities. See the companion ethnobotany report for detailed information on plant uses by:
+
+\begin{itemize}
+    \item Kawaiisu
+    \item Tubatulabal
+    \item Western Shoshone
+    \item Eastern Mono (Owens Valley Paiute)
+    \item Northern Paiute
+\end{itemize}
+
+\subsection{Borax and Salt Mining}
+
+\subsubsection{Early Borax Operations}
+
+Borax was discovered in Saline Valley in 1874. The Conn and Trudo Borax Company mined borax from the salt marsh from 1874 to 1895. Shallow pits from this operation remain visible near Saline Valley Road.
+
+\subsubsection{The Saline Valley Salt Tram}
+
+\begin{fieldstop}{Stop: Salt Tram Remains}
+\textbf{Historic Overview}:
+\begin{itemize}[noitemsep]
+    \item Constructed 1911--1913
+    \item Length: 13.4 miles
+    \item Steepest tramway in the United States
+    \item Crossed Inyo Mountains at Daisy Pass (8,720 ft)
+    \item Operated sporadically 1913--1935
+    \item Listed on National Register of Historic Places (1974)
+\end{itemize}
+
+\textbf{Technical specifications}:
+\begin{itemize}[noitemsep]
+    \item Power: 75 hp Westinghouse electric motors
+    \item Speed: 5.5 mph
+    \item Capacity: 20 tons of salt per hour
+    \item Maximum climb angle: 40\textdegree
+\end{itemize}
+
+\textbf{Economics}: Construction cost \$750,000 (equivalent to \$23.9 million in 2024), bankrupting multiple companies.
+
+\textit{Note: Please observe tram remains from a distance. In 2024, one tower was damaged by visitors; the site is protected.}
+\end{fieldstop}
+
+%=======================================================================
+\section{Field Trip Logistics}
+%=======================================================================
+
+\subsection{Access Routes}
+
+\begin{safetybox}
+All routes into Saline Valley are unpaved and require high-clearance vehicles. 4WD is recommended but not always required. Road conditions change seasonally---check with Death Valley National Park before departing.
+\end{safetybox}
+
+\subsubsection{Primary Routes}
+
+\begin{enumerate}
+    \item \textbf{North Pass Road}: From Big Pine via Waucoba Road
+    \item \textbf{South Pass Road}: From Highway 190 via Saline Valley Road (longer but lower passes)
+    \item \textbf{Steel Pass}: From Eureka Valley (rough, high clearance essential)
+\end{enumerate}
+
+\subsection{Suggested Itinerary}
+
+\begin{longtable}{p{2cm}p{4cm}p{7cm}}
+\toprule
+\textbf{Time} & \textbf{Location} & \textbf{Focus} \\
+\midrule
+\endhead
+Day 1 AM & Inyo Mountains descent & Stratigraphy, Paleozoic carbonates \\
+Day 1 PM & Salt flat margin & Evaporite mineralogy, playa processes \\
+Day 1 Eve & Hot springs area & Camp setup, hydrothermal geology \\
+Day 2 AM & Sand dunes & Aeolian geomorphology \\
+Day 2 Midday & Salt tram remains & Mining history \\
+Day 2 PM & Return via alternate route & Compare stratigraphy \\
+\bottomrule
+\caption{Suggested two-day itinerary}
+\end{longtable}
+
+\subsection{Field Equipment Checklist}
+
+\begin{itemize}
+    \item Hand lens (10x minimum)
+    \item Brunton compass
+    \item Field notebook
+    \item Rock hammer (if permitted)
+    \item Sample bags
+    \item Dilute HCl (for carbonate ID)
+    \item Camera
+    \item Binoculars (for sheep, birds)
+    \item Sun protection (hat, sunscreen, sunglasses)
+    \item Sturdy boots
+\end{itemize}
+
+%=======================================================================
+\section{Summary: Key Geological Themes}
+%=======================================================================
+
+\begin{enumerate}
+    \item \textbf{Basin and Range Extension}: Saline Valley is a textbook graben formed by Cenozoic normal faulting, demonstrating active Basin and Range tectonics.
+
+    \item \textbf{Paleozoic Miogeocline}: The Inyo Mountains expose the thickest Paleozoic marine section in the western U.S., recording $>$300 million years of passive margin sedimentation.
+
+    \item \textbf{Cambrian Type Locality}: The Waucoban trilobite locality marks the Precambrian--Cambrian boundary and represents a historically significant site in paleontology.
+
+    \item \textbf{Evaporite Geochemistry}: The salt flat demonstrates equilibrium-controlled evaporite precipitation with predictable mineral zonation.
+
+    \item \textbf{Fault-Controlled Hydrothermal Systems}: Hot springs illustrate groundwater circulation along normal faults in extensional settings.
+
+    \item \textbf{Aeolian Processes}: Sand dunes record wind patterns, sediment supply, and basin geometry.
+
+    \item \textbf{Human-Landscape Interaction}: From Indigenous trade networks to industrial mining, Saline Valley records millennia of human adaptation to extreme environments.
+\end{enumerate}
+
+%=======================================================================
+\newpage
+\section*{References and Further Reading}
+
+\subsection*{Geology}
+
+\begin{itemize}
+    \item Hardie, L.A. (1968). The origin of the Recent non-marine evaporite deposit of Saline Valley, Inyo County, California. \textit{Geochimica et Cosmochimica Acta} 32: 1279--1301.
+    \item Burchfiel, B.C. (1969). Geology of the Dry Mountain quadrangle, Inyo County, California. \textit{California Division of Mines and Geology Special Report} 99.
+    \item Snow, J.K. \& Wernicke, B. (2000). Cenozoic tectonism in the central Basin and Range: Magnitude, rate, and distribution of upper crustal strain. \textit{American Journal of Science} 300: 659--719.
+\end{itemize}
+
+\subsection*{Paleontology}
+
+\begin{itemize}
+    \item Walcott, C.D. (1910). Cambrian geology and paleontology II. \textit{Smithsonian Miscellaneous Collections} 53.
+    \item Nelson, C.A. (1978). Late Precambrian--Early Cambrian stratigraphic and faunal succession of eastern California and the Precambrian-Cambrian boundary. \textit{Geological Magazine} 115: 121--126.
+\end{itemize}
+
+\subsection*{Natural History}
+
+\begin{itemize}
+    \item Munz, P.A. \& Keck, D.D. (1959). \textit{A California Flora}. University of California Press.
+    \item MacMahon, J.A. (2000). \textit{Deserts}. National Audubon Society Nature Guides. Knopf.
+\end{itemize}
+
+\subsection*{Cultural History}
+
+\begin{itemize}
+    \item Fretheim, P. (n.d.). The incredible Saline to Swansea salt tram. Owens Valley History.
+    \item Zigmond, M.L. (1981). \textit{Kawaiisu Ethnobotany}. University of Utah Press.
+\end{itemize}
+
+\end{document}

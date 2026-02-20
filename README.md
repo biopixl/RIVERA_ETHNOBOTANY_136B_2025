@@ -1,10 +1,15 @@
-# Saline Valley Region Ethnobotany
+# Saline Valley Region: Ethnobotany and Field Guide
 
-Research report on plant uses and rituals among Indigenous peoples of the Saline Valley region, California.
+Research materials for Ge136 field trip to Saline Valley, Death Valley National Park, California.
 
 ## Overview
 
-This repository contains a research report documenting traditional ethnobotanical knowledge of five Indigenous groups with historical connections to the Saline Valley region:
+This repository contains two complementary documents:
+
+1. **Ethnobotany Report** - Traditional plant uses and rituals among Indigenous peoples
+2. **Field Guide** - Geology, natural history, and logistics for the class field trip
+
+## Indigenous Groups Covered
 
 1. **Kawaiisu** - Tehachapi Mountains and southern Sierra Nevada
 2. **Tubatulabal** - Upper Kern River Valley
@@ -14,24 +19,49 @@ This repository contains a research report documenting traditional ethnobotanica
 
 ## Contents
 
-- `saline-valley-ethnobotany.tex` - Main LaTeX report
-- `references.bib` - Bibliography in BibTeX format
-- `README.md` - This file
+| File | Description |
+|------|-------------|
+| `saline-valley-ethnobotany.tex` | Ethnobotany research report |
+| `saline-valley-field-guide.tex` | Geology and natural history field guide |
+| `references.bib` | Bibliography (BibTeX format) |
+| `README.md` | This file |
 
-## Topics Covered
+## Ethnobotany Topics
 
 - Food plants (pinyon pine, acorns, seeds, roots, berries)
-- Medicinal applications (sagebrush, yerba santa, jimsonweed, etc.)
+- Medicinal applications (sagebrush, yerba santa, jimsonweed)
 - Ceremonial uses (pine nut ceremonies, vision quests, Datura rituals)
 - Material culture (basketry, construction, tools)
 - Indigenous irrigation agriculture (Owens Valley Paiute)
 - Trade networks connecting mountain and desert communities
-- Contemporary cultural revitalization
+
+## Field Guide Topics
+
+### Geology
+- Basin and Range tectonics and graben formation
+- Paleozoic stratigraphy (thickest section in western U.S.)
+- Waucoban type locality (Precambrian-Cambrian boundary)
+- Evaporite mineralogy and playa processes
+- Fault-controlled hot springs
+
+### Natural History
+- Vegetation zones (creosote bush to alpine)
+- Desert wildlife (bighorn sheep, pupfish, raptors)
+- Aeolian geomorphology (sand dunes)
+
+### Cultural History
+- Salt tram (National Register of Historic Places)
+- Borax mining operations
+- Indigenous trade networks
 
 ## Compilation
 
-To compile the LaTeX document:
+### For Overleaf
+Import directly from GitHub - both documents will compile with pdflatex + bibtex.
 
+### Local Compilation
+
+**Ethnobotany Report:**
 ```bash
 pdflatex saline-valley-ethnobotany.tex
 bibtex saline-valley-ethnobotany
@@ -39,24 +69,33 @@ pdflatex saline-valley-ethnobotany.tex
 pdflatex saline-valley-ethnobotany.tex
 ```
 
-Or use Overleaf for online compilation.
+**Field Guide:**
+```bash
+pdflatex saline-valley-field-guide.tex
+pdflatex saline-valley-field-guide.tex
+```
 
-## Key Sources
+## Key References
 
-### Primary Ethnographic Works
+### Geology
+- Hardie, L.A. (1968). The origin of the Recent non-marine evaporite deposit of Saline Valley. *Geochimica et Cosmochimica Acta* 32: 1279-1301.
+- Burchfiel, B.C. (1969). Geology of the Dry Mountain quadrangle. *CDMG Special Report* 99.
+
+### Ethnography
 - Zigmond, M.L. (1981). *Kawaiisu Ethnobotany*. University of Utah Press.
 - Voegelin, E.W. (1938). Tubatulabal Ethnography. *UC Anthropological Records* 2(1).
 - Rhode, D. (2002). *Native Plants of Southern Nevada: An Ethnobotany*. University of Utah Press.
 
-### Contemporary Resources
-- Owens Valley Indian Water Commission: https://www.oviwc.org/
-- Native Memory Project: https://nativememoryproject.org/
-- Natural History Museum of Utah Ethnobotanical Guide: https://nhmu.utah.edu/native-plants
+### Web Resources
+- [Owens Valley Indian Water Commission](https://www.oviwc.org/)
+- [Native Memory Project](https://nativememoryproject.org/)
+- [NHMU Ethnobotanical Guide](https://nhmu.utah.edu/native-plants)
+- [NPS Death Valley](https://www.nps.gov/deva/)
 
 ## Course
 
-Ge136 - [Course Title]
+Ge136
 
 ## License
 
-This research report is for educational purposes.
+Educational use only.
