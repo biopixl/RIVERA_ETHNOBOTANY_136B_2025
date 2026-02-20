@@ -56,7 +56,13 @@ Run `./figures/download_figures.sh` to download all available resources.
 
 ### Territory Map
 
-`figures/maps/saline_valley_territories.png` - Custom-generated map showing simplified polygon boundaries for the five Indigenous groups (Kawaiisu, Tubatulabal, Western Shoshone, Eastern Mono, Northern Paiute) in the Saline Valley region. Generated using `figures/create_territory_map.py` based on ethnographic sources (Kroeber 1925, Steward 1933/1938, Zigmond 1981, Native Land Digital).
+`figures/maps/saline_valley_territories_geo.png` - Custom-generated map showing simplified polygon boundaries for the five Indigenous groups overlaid on a shaded relief basemap depicting Basin and Range geological structure. Features include:
+- Synthetic DEM showing Sierra Nevada, Inyo Mountains, Panamint Range, White Mountains
+- Valley systems: Owens Valley, Saline Valley, Death Valley, Panamint Valley, Eureka Valley
+- Major normal faults marking range fronts
+- Elevation colorbar (hypsometric tints)
+
+Generated using `figures/create_territory_map_geo.py` based on ethnographic sources (Kroeber 1925, Steward 1933/1938, Zigmond 1981, Native Land Digital).
 
 ## Ethnobotany Topics
 
