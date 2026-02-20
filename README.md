@@ -50,8 +50,13 @@ figures/
 | Archaeological | Pinwheel Cave Datura study | PNAS (CC BY-NC-ND) |
 | Ethnographic | Owens Valley irrigation documents | UC eScholarship |
 | Maps | Death Valley NM 1977 | USGS |
+| Maps | Indigenous Territories Map | Generated (matplotlib) |
 
 Run `./figures/download_figures.sh` to download all available resources.
+
+### Territory Map
+
+`figures/maps/saline_valley_territories.png` - Custom-generated map showing simplified polygon boundaries for the five Indigenous groups (Kawaiisu, Tubatulabal, Western Shoshone, Eastern Mono, Northern Paiute) in the Saline Valley region. Generated using `figures/create_territory_map.py` based on ethnographic sources (Kroeber 1925, Steward 1933/1938, Zigmond 1981, Native Land Digital).
 
 ## Ethnobotany Topics
 
