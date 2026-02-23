@@ -22,6 +22,7 @@ This repository contains three complementary documents:
 
 | File | Description |
 |------|-------------|
+| `saline-valley-plant-culture.tex` | **Primary document** - Desert plant healing, rituals, and material culture |
 | `saline-valley-ethnobotany.tex` | Full ethnobotany research report |
 | `saline-valley-field-guide.tex` | Geology and natural history field guide |
 | `desert-plants-field-synthesis.tex` | 2-page field synthesis with mechanisms |
@@ -66,11 +67,38 @@ Generated using `figures/create_territory_map_geo.py` based on ethnographic sour
 
 ## Ethnobotany Topics
 
-- Food plants (pinyon pine, acorns, seeds, roots, berries)
-- Medicinal applications with pharmacological mechanisms
-- Ceremonial uses (pine nut ceremonies, vision quests, Datura rituals)
-- Material culture (basketry, construction, tools)
-- Indigenous irrigation agriculture (Owens Valley Paiute)
+### Plants Covered
+
+**Food Plants:**
+- Piñon pine (*Pinus monophylla*) - nuts, ceremonial harvest
+- California scrub oak (*Quercus berberidifolia*) - acorns
+- Mesquite (*Prosopis glandulosa*) - pods, flour
+- Chia (*Salvia columbariae*) - seeds
+- Indian ricegrass (*Achnatherum hymenoides*) - seeds
+- Saltbush (*Atriplex confertifolia*) - seeds, salt substitute
+- Dock (*Rumex* spp.) - seeds
+- Biscuitroot (*Lomatium utriculatum*) - roots
+- Cattail (*Typha* spp.) - rhizomes, pollen, shoots
+- Yucca (*Yucca schidigera*, *Y. brevifolia*) - flower stalks, fruit
+
+**Medicinal Plants:**
+- Big sagebrush (*Artemisia tridentata*) - respiratory, antimicrobial
+- Yerba santa (*Eriodictyon californicum*) - respiratory, expectorant
+- Willow (*Salix* spp.) - salicin, pain relief
+- Mormon tea (*Ephedra nevadensis*) - stimulant, tonic
+- Creosote bush (*Larrea tridentata*) - anti-inflammatory, NDGA
+- Juniper (*Juniperus osteosperma*) - berries, respiratory
+
+**Sacred/Ceremonial Plants:**
+- Native tobacco (*Nicotiana* spp.) - offerings, cultivation
+- Datura (*Datura wrightii*) - vision quests, puberty rites
+- White sage (*Salvia apiana*) - smudging, purification
+
+**Material Culture Plants:**
+- Willow - basketry warp, cordage
+- Deergrass (*Muhlenbergia rigens*) - basket foundations
+- Yucca - fiber, cordage, soap
+- Tule/cattail - mats, boats, shelters
 
 ## Field Synthesis Highlights
 
@@ -110,6 +138,10 @@ Import directly from GitHub - all documents compile with pdflatex + bibtex.
 ### Local Compilation
 
 ```bash
+# Plant Culture (primary document)
+pdflatex saline-valley-plant-culture.tex
+pdflatex saline-valley-plant-culture.tex
+
 # Ethnobotany Report
 pdflatex saline-valley-ethnobotany.tex
 bibtex saline-valley-ethnobotany
